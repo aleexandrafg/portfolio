@@ -66,6 +66,7 @@ nav a:hover {
     padding: 50px;
     text-align: center;
     margin-top: 30px;
+    width: 100%;
 }
   
 #about .content {
@@ -164,7 +165,10 @@ text-align: center;
 }
 
 /* CONTACT */
-  
+
+#contact{
+    padding: 20px;
+}
 .form-group {
     margin-bottom:  20px;
 
