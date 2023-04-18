@@ -13,6 +13,7 @@ body {
     background: linear-gradient( to bottom, #ffffff, #bfa58e);
     box-sizing: border-box;
     width: 100%;
+    margin: 0;
 }
 
 .sub-headers{
@@ -165,27 +166,23 @@ text-align: center;
 
 /* CONTACT */
 
-
-.form-group {
-    margin-bottom:  20px;
-
-}
   
 label {
     display: block;
     font-size: 20px;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
   
 input,
 textarea {
-    width: 100%;
-    padding: 10px;
+    width: 90%;
     font-size: 18px;
     line-height: 1.6;
     border: 1px solid #ccc;
     border-radius: 5px;
     resize: none;
+    align-self: center;
 }
   
 button[type="submit"] {
