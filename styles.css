@@ -21,7 +21,11 @@ body {
 
 .sub-headers{
      margin-top: 50px;
-     font-size: x-large;
+}
+#projects,
+#resume,
+#header{
+    padding: 15px ;
 }
 
       /* NAVIGATION */
@@ -67,14 +71,14 @@ nav a:hover {
     background-image: url(about.jpg);
     background-size: cover;
     background-position: center;
-    padding: 50px;
+    padding: 15px;
     text-align: center;
     margin-top: 30px;
 }
   
 #about .content {
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 50px;
+    padding: 15px;
 }
   
 #about h2 {
@@ -209,3 +213,11 @@ button[type="submit"] {
     fill: #f2f2f2;
 }
   
+@media (min-width: 768px) {
+    #about {
+        padding: 50px;
+    }
+    #about .content{
+        padding: 50px;
+    }
+}
