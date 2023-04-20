@@ -1,3 +1,6 @@
+html, body {
+    overflow-x: hidden;
+}
 h1, h2{
     font-family: 'Lora', serif;
     color: #6c533d;
